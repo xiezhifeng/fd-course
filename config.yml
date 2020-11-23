@@ -14,3 +14,12 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+  - title: Xiezhifeng Step
+    actions:
+      - type: createIssue
+        title: test new
+        body: a-response-file.md
+      - type: enablePages
+    description: test
+    link: ''
+    event: issues.closed
